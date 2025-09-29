@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <style>
+        /* Styles très simples avec cadre flottant */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        
+        .cadre {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
+            margin: 20px;
+        }
+        
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px;
+            border: 2px solid #333;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        
+        .titre {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 30px;
+            color: #666;
+        }
+        
+        .contact {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+        }
+        
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+        }
+        
+        .experience, .formation {
+            margin-bottom: 20px;
+        }
+        
+        .date {
+            color: #666;
+            font-style: italic;
+            font-size: 0.9em;
+        }
+        
+        .competence {
+            margin-bottom: 10px;
+        }
+        
+        strong {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="cadre">
+        <!-- Photo -->
+        <img src="/home/inconnu/Images/1391067.jpg" alt="Ma photo" class="photo">
+        
+        <!-- Nom et titre -->
+        <h1>Andry Zo LeM</h1>
+        <p class="titre">Développeur Web</p>
+        
+        <!-- Coordonnées -->
+        <div class="contact">
+            <p>📧 Andriamhazosoaandryzolem@email.com | 📞 034 66 666 77 | 🔗 linkedin.com/in/leMyh</p>
+        </div>
+        
+        <!-- À propos -->
+        <div class="section">
+            <h2>À propos</h2>
+            <p>Développeur web passionné avec 5 ans d'expérience. J'aime créer des solutions simples et efficaces.</p>
+        </div>
+        
+        <!-- Expérience -->
+        <div class="section">
+            <h2>Expérience</h2>
+            
+            <div class="experience">
+                <strong>Développeur Frontend</strong>
+                <div class="date">2020 - Présent</div>
+                <p>Tech Solutions, Paris</p>
+                <p>Développement d'applications web avec React</p>
+            </div>
+            
+            <div class="experience">
+                <strong>Développeur Web</strong>
+                <div class="date">2018 - 2020</div>
+                <p>Web Agency, Lyon</p>
+                <p>Création de sites web pour divers clients</p>
+            </div>
+        </div>
+        
+        <!-- Formation -->
+        <div class="section">
+            <h2>Formation</h2>
+            
+            <div class="formation">
+                <strong>Master Informatique</strong>
+                <div class="date">2016 - 2018</div>
+                <p>Université de Paris</p>
+            </div>
+            
+            <div class="formation">
+                <strong>Licence Développement Web</strong>
+                <div class="date">2013 - 2016</div>
+                <p>IUT de Lyon</p>
+            </div>
+        </div>
+        
+        <!-- Compétences -->
+        <div class="section">
+            <h2>Compétences</h2>
+            
+            <div class="competence">
+                <strong>HTML, CSS, JavaScript</strong>
+                <p>Développement frontend</p>
+            </div>
+            
+            <div class="competence">
+                <strong>React, Node.js</strong>
+                <p>Frameworks et bibliothèques</p>
+            </div>
+            
+            <div class="competence">
+                <strong>Git, GitHub</strong>
+                <p>Gestion de versions</p>
+            </div>
+        </div>
+        
+        <!-- Projets -->
+        <div class="section">
+            <h2>Projets</h2>
+            
+            <div class="experience">
+                <strong>Application de gestion de tâches</strong>
+                <p>Développée avec React et Node.js</p>
+            </div>
+            
+            <div class="experience">
+                <strong>Site e-commerce</strong>
+                <p>Plateforme complète avec système de paiement</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
